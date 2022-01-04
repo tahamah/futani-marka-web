@@ -6,6 +6,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 
 .orange-color{
     color: orange;
@@ -21,11 +24,22 @@ p{
     border-radius: 10px;
     background-image: linear-gradient( orange, tomato);
     
+    
 }
 
 .first-banar{
 background-image: url(img/top-banner.png);
 background-repeat: no-repeat;
+padding-bottom: 5%;
+}
+.second-banar{
+    background-image: url(img/dream-bg.png);
+background-repeat: no-repeat;
+padding-bottom: 5%;
+background-position: right top;
+}
+.second-banar p{
+    padding-right: 10%;
 }
 
 .d-flex{
@@ -35,10 +49,11 @@ background-repeat: no-repeat;
 .hafe-width{
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
 }
 
 .hafe-width img{
-    width: 80%;
+    width: 100%;
 }
 
 
@@ -57,13 +72,28 @@ background-repeat: no-repeat;
         padding-left: 5%;
         padding-top: 20%;
     }
+   
 }
 
 /* Large Device */
+@media only screen and (min-width:1150px) {
+    .hafe-width img{
+        width: 75%;
+        padding-left: 30%;
+    }
+}
+
 @media only screen and (min-width:1350px) {
     .hafe-width img{
         width: 65%;
         padding-left: 30%;
+    }
+    /* banar  */
+    .second-banar{
+        background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+    background-position: right top;
     }
 }
 @media only screen and (min-width:1650px) {
