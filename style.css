@@ -1,6 +1,7 @@
 body{
     font-family: 'Playfair Display', serif;
-    margin: 0%;
+    margin: 0% auto;
+   
 }
 
 h1{
@@ -58,7 +59,7 @@ background-position: right top;
 }
 
 .hafe-width img{
-    width: 100%;
+    width: 90%;
 }
 
 
@@ -113,6 +114,14 @@ footer p{
 }
 
 
+
+
+
+@media only screen and (min-width:1450px) {
+    body{
+        width: 1450px;
+    }
+}
 /* ------------------
      Media Quray 
 -------------------- */
